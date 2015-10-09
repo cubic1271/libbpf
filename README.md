@@ -20,11 +20,11 @@ The library includes two methods:
      
     For assembly syntax, see: https://www.kernel.org/doc/Documentation/networking/filter.txt
      
-    @param program Program to compile
+    @param text Program to compile
     @param prog Compiled program is written here
     @return zero on success and nonzero on failure
     */
-    int libbpf_compile(const char* program, bpf_program_t* prog);
+    int libbpf_compile(bpf_program_t* prog, const char* text);
      
     /**
     Applies a compiled BPF program to something that is presumably a packet
