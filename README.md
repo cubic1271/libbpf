@@ -1,6 +1,6 @@
 ### libbpf
 
-This project offers a simple way to embed BPF into a cross-platform at the user-space level application.
+This project offers a simple way to embed BPF in a cross-platform way for user-space applications.
 
 Note that this is a niche project: generally, it's a much better idea to use the BPF 
 functions provided by e.g. the Linux / BSD kernels.  The only time this is really useful is when
