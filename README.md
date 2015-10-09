@@ -34,5 +34,5 @@ The library includes two methods:
     @param len size of packet
     @return value returned by BPF snippet
     */
-    size_t libbpf_apply(const bpf_program_t* prog, const uint8_t* data, const size_t len);
+    int libbpf_apply(const bpf_program_t* prog, const uint8_t* data, const size_t len);
 ```
